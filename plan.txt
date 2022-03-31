@@ -1,0 +1,18 @@
+What I need:
+- Classes
+    - Players
+
+Need a way to create a hand and assign to a Player
+
+Need to loop through players for turns, end loop when winner is announced
+
+Gameplay:
+1) Acquire number of players
+2) creates player objects based off of number of players
+3) deals hands to each player, only shows during their turn
+4) turns:
+    1) player calculates the value of their hand, cpu checks for correctness
+    2) if correct and equal to zero, player wins
+    3) if correct and not equal to zero, player discards a number from their hand and draws a new one
+    4) if incorrect, player calculates again
+5) if player wins, game ends, asks if you want to play again, return to step 1
