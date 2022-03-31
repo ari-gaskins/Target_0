@@ -1,7 +1,13 @@
 What I need:
 - Classes
     - Players
-
+        - hand = [], the players hand instantiated as an empty list
+        - sum = user calculation, need method to check automatically
+        - num_players = player number for sequencing, changes as players are added, class attribute
+        - discard_num = the number the user is discarding, must be deleted after discarded
+        - max_players = maximum number of players
+        - add player method = increment num as new player object is created
+        - generate hand method = 
 Need a way to create a hand and assign to a Player
 
 Need to loop through players for turns, end loop when winner is announced
